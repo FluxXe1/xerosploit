@@ -658,7 +658,6 @@ def main():
 								print("\033[1;34m\n[++] Press 'Ctrl + C' to stop . \n\033[1;m")
 								cmd_driftnet = os.system("mkdir -p /opt/xerosploit/xedriftnet && driftnet -d /opt/xerosploit/xedriftnet > /dev/null 2>&1 &")
 								cmd_driftnet_sniff = os.system("xettercap  -X")
-								cmd_driftnet_2 = os.system("rm -R /opt/xerosploit/xedriftnet")
 								driftnet()
 							else:
 								print("\033[1;91m\n[!] Error : Command not found.\033[1;m")
